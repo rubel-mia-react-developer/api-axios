@@ -34,14 +34,14 @@ const Cart = () => {
 
                       <ul className='text-[17px] text-black  font-medium mb-[15px] '>
                         <li>Brand:  {data.brand}</li>
-                        <li>Product Code:  {data.product_code}</li>
+                        <li>Product Code:  {data.product}</li>
                         <li>Type:  {data.type}</li>
                       </ul>
 
-                      <h2 className='text-red-700  font-bold mb-[15px]'>Price: {data.price}</h2>
+                      <h2 className='text-red-700  font-bold mb-[15px] border-e border-2 rounded-full'>Price: {data.price}</h2>
 
                       <button onClick={handelShow}
-                        className='w-[228px] h-[45px] bg-[#3749BB0D] hover:text-white hover:bg-[#3749bb] rounded font-lato font-semibold text-[#3749bb]'>Confirm</button>
+                        className='w-[228px] h-[45px] bg-[#3749BB0D] hover:text-white hover:bg-[#3749bb] rounded font-lato font-semibold text-[#3749bb] border-e border-2 rounded-full'>Confirm</button>
                     </div>
 
 
